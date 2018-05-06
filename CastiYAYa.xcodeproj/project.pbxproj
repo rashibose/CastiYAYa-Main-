@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD341F2C2085984900C1A1FD /* IMG_7770-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD341F2B2085983F00C1A1FD /* IMG_7770-2.jpg */; };
+		AD72B44B2058221B00228BE5 /* TraditionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72B44A2058221B00228BE5 /* TraditionsTableViewController.swift */; };
+		AD79DCB72049AD5400955C42 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79DCB62049AD5400955C42 /* HomeViewController.swift */; };
+		ADA427B4206957180089DED5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ADA427B3206957180089DED5 /* .gitignore */; };
+		ADC4A364204757C500B5EF69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4A363204757C500B5EF69 /* AppDelegate.swift */; };
+		ADC4A366204757C500B5EF69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4A365204757C500B5EF69 /* ViewController.swift */; };
+		ADC4A369204757C500B5EF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A367204757C500B5EF69 /* Main.storyboard */; };
+		ADC4A36B204757C500B5EF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A36A204757C500B5EF69 /* Assets.xcassets */; };
+		ADC4A36E204757C500B5EF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A36C204757C500B5EF69 /* LaunchScreen.storyboard */; };
+		ADC4A379204757C500B5EF69 /* CastiYAYaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4A378204757C500B5EF69 /* CastiYAYaTests.swift */; };
+		ADC4A384204757C500B5EF69 /* CastiYAYaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4A383204757C500B5EF69 /* CastiYAYaUITests.swift */; };
+		ADC4A3A7204757D400B5EF69 /* Overpass-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A392204757D400B5EF69 /* Overpass-BlackItalic.ttf */; };
+		ADC4A3A8204757D400B5EF69 /* Overpass-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A393204757D400B5EF69 /* Overpass-Bold.ttf */; };
+		ADC4A3A9204757D400B5EF69 /* Overpass-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A394204757D400B5EF69 /* Overpass-BoldItalic.ttf */; };
+		ADC4A3AA204757D400B5EF69 /* Overpass-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A395204757D400B5EF69 /* Overpass-ExtraBold.ttf */; };
+		ADC4A3AB204757D400B5EF69 /* Overpass-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A396204757D400B5EF69 /* Overpass-ExtraBoldItalic.ttf */; };
+		ADC4A3AC204757D400B5EF69 /* Overpass-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A397204757D400B5EF69 /* Overpass-ExtraLight.ttf */; };
+		ADC4A3AD204757D400B5EF69 /* Overpass-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A398204757D400B5EF69 /* Overpass-ExtraLightItalic.ttf */; };
+		ADC4A3AE204757D400B5EF69 /* Overpass-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A399204757D400B5EF69 /* Overpass-Italic.ttf */; };
+		ADC4A3AF204757D400B5EF69 /* Overpass-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A39A204757D400B5EF69 /* Overpass-Light.ttf */; };
+		ADC4A3B0204757D400B5EF69 /* Overpass-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A39B204757D400B5EF69 /* Overpass-LightItalic.ttf */; };
+		ADC4A3B1204757D400B5EF69 /* Overpass-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A39C204757D400B5EF69 /* Overpass-Regular.ttf */; };
+		ADC4A3B2204757D400B5EF69 /* Overpass-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A39D204757D400B5EF69 /* Overpass-SemiBold.ttf */; };
+		ADC4A3B3204757D400B5EF69 /* Overpass-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A39E204757D400B5EF69 /* Overpass-SemiBoldItalic.ttf */; };
+		ADC4A3B4204757D400B5EF69 /* Overpass-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A39F204757D400B5EF69 /* Overpass-Thin.ttf */; };
+		ADC4A3B5204757D400B5EF69 /* Overpass-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A3A0204757D400B5EF69 /* Overpass-ThinItalic.ttf */; };
+		ADC4A3B6204757D400B5EF69 /* PlayfairDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A3A1204757D400B5EF69 /* PlayfairDisplay-Black.ttf */; };
+		ADC4A3B7204757D400B5EF69 /* PlayfairDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A3A2204757D400B5EF69 /* PlayfairDisplay-BlackItalic.ttf */; };
+		ADC4A3B8204757D400B5EF69 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A3A3204757D400B5EF69 /* PlayfairDisplay-Bold.ttf */; };
+		ADC4A3B9204757D400B5EF69 /* PlayfairDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A3A4204757D400B5EF69 /* PlayfairDisplay-BoldItalic.ttf */; };
+		ADC4A3BA204757D400B5EF69 /* PlayfairDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A3A5204757D400B5EF69 /* PlayfairDisplay-Italic.ttf */; };
+		ADC4A3BB204757D400B5EF69 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A3A6204757D400B5EF69 /* PlayfairDisplay-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADC4A375204757C500B5EF69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC4A358204757C500B5EF69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC4A35F204757C500B5EF69;
+			remoteInfo = CastiYAYa;
+		};
+		ADC4A380204757C500B5EF69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC4A358204757C500B5EF69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC4A35F204757C500B5EF69;
+			remoteInfo = CastiYAYa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD341F2B2085983F00C1A1FD /* IMG_7770-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_7770-2.jpg"; sourceTree = "<group>"; };
+		AD72B44A2058221B00228BE5 /* TraditionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraditionsTableViewController.swift; sourceTree = "<group>"; };
+		AD79DCB62049AD5400955C42 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ADA427B3206957180089DED5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = CastiYAYa/.gitignore; sourceTree = "<group>"; };
+		ADC4A360204757C500B5EF69 /* CastiYAYa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CastiYAYa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC4A363204757C500B5EF69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADC4A365204757C500B5EF69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADC4A368204757C500B5EF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADC4A36A204757C500B5EF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADC4A36D204757C500B5EF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADC4A36F204757C500B5EF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC4A374204757C500B5EF69 /* CastiYAYaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastiYAYaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC4A378204757C500B5EF69 /* CastiYAYaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastiYAYaTests.swift; sourceTree = "<group>"; };
+		ADC4A37A204757C500B5EF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC4A37F204757C500B5EF69 /* CastiYAYaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastiYAYaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC4A383204757C500B5EF69 /* CastiYAYaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastiYAYaUITests.swift; sourceTree = "<group>"; };
+		ADC4A385204757C500B5EF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC4A392204757D400B5EF69 /* Overpass-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-BlackItalic.ttf"; sourceTree = "<group>"; };
+		ADC4A393204757D400B5EF69 /* Overpass-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Bold.ttf"; sourceTree = "<group>"; };
+		ADC4A394204757D400B5EF69 /* Overpass-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-BoldItalic.ttf"; sourceTree = "<group>"; };
+		ADC4A395204757D400B5EF69 /* Overpass-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-ExtraBold.ttf"; sourceTree = "<group>"; };
+		ADC4A396204757D400B5EF69 /* Overpass-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		ADC4A397204757D400B5EF69 /* Overpass-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-ExtraLight.ttf"; sourceTree = "<group>"; };
+		ADC4A398204757D400B5EF69 /* Overpass-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		ADC4A399204757D400B5EF69 /* Overpass-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Italic.ttf"; sourceTree = "<group>"; };
+		ADC4A39A204757D400B5EF69 /* Overpass-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Light.ttf"; sourceTree = "<group>"; };
+		ADC4A39B204757D400B5EF69 /* Overpass-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-LightItalic.ttf"; sourceTree = "<group>"; };
+		ADC4A39C204757D400B5EF69 /* Overpass-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Regular.ttf"; sourceTree = "<group>"; };
+		ADC4A39D204757D400B5EF69 /* Overpass-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-SemiBold.ttf"; sourceTree = "<group>"; };
+		ADC4A39E204757D400B5EF69 /* Overpass-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		ADC4A39F204757D400B5EF69 /* Overpass-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Thin.ttf"; sourceTree = "<group>"; };
+		ADC4A3A0204757D400B5EF69 /* Overpass-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-ThinItalic.ttf"; sourceTree = "<group>"; };
+		ADC4A3A1204757D400B5EF69 /* PlayfairDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Black.ttf"; sourceTree = "<group>"; };
+		ADC4A3A2204757D400B5EF69 /* PlayfairDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
+		ADC4A3A3204757D400B5EF69 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		ADC4A3A4204757D400B5EF69 /* PlayfairDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
+		ADC4A3A5204757D400B5EF69 /* PlayfairDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		ADC4A3A6204757D400B5EF69 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC4A35D204757C500B5EF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC4A371204757C500B5EF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC4A37C204757C500B5EF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC4A357204757C500B5EF69 = {
+			isa = PBXGroup;
+			children = (
+				ADA427B3206957180089DED5 /* .gitignore */,
+				ADC4A362204757C500B5EF69 /* CastiYAYa */,
+				ADC4A377204757C500B5EF69 /* CastiYAYaTests */,
+				ADC4A382204757C500B5EF69 /* CastiYAYaUITests */,
+				ADC4A361204757C500B5EF69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC4A361204757C500B5EF69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC4A360204757C500B5EF69 /* CastiYAYa.app */,
+				ADC4A374204757C500B5EF69 /* CastiYAYaTests.xctest */,
+				ADC4A37F204757C500B5EF69 /* CastiYAYaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC4A362204757C500B5EF69 /* CastiYAYa */ = {
+			isa = PBXGroup;
+			children = (
+				ADC4A363204757C500B5EF69 /* AppDelegate.swift */,
+				ADC4A365204757C500B5EF69 /* ViewController.swift */,
+				ADC4A367204757C500B5EF69 /* Main.storyboard */,
+				ADC4A36A204757C500B5EF69 /* Assets.xcassets */,
+				AD341F2B2085983F00C1A1FD /* IMG_7770-2.jpg */,
+				ADC4A36C204757C500B5EF69 /* LaunchScreen.storyboard */,
+				ADC4A36F204757C500B5EF69 /* Info.plist */,
+				ADC4A391204757D400B5EF69 /* fonts */,
+				AD79DCB62049AD5400955C42 /* HomeViewController.swift */,
+				AD72B44A2058221B00228BE5 /* TraditionsTableViewController.swift */,
+			);
+			path = CastiYAYa;
+			sourceTree = "<group>";
+		};
+		ADC4A377204757C500B5EF69 /* CastiYAYaTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADC4A378204757C500B5EF69 /* CastiYAYaTests.swift */,
+				ADC4A37A204757C500B5EF69 /* Info.plist */,
+			);
+			path = CastiYAYaTests;
+			sourceTree = "<group>";
+		};
+		ADC4A382204757C500B5EF69 /* CastiYAYaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADC4A383204757C500B5EF69 /* CastiYAYaUITests.swift */,
+				ADC4A385204757C500B5EF69 /* Info.plist */,
+			);
+			path = CastiYAYaUITests;
+			sourceTree = "<group>";
+		};
+		ADC4A391204757D400B5EF69 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ADC4A392204757D400B5EF69 /* Overpass-BlackItalic.ttf */,
+				ADC4A393204757D400B5EF69 /* Overpass-Bold.ttf */,
+				ADC4A394204757D400B5EF69 /* Overpass-BoldItalic.ttf */,
+				ADC4A395204757D400B5EF69 /* Overpass-ExtraBold.ttf */,
+				ADC4A396204757D400B5EF69 /* Overpass-ExtraBoldItalic.ttf */,
+				ADC4A397204757D400B5EF69 /* Overpass-ExtraLight.ttf */,
+				ADC4A398204757D400B5EF69 /* Overpass-ExtraLightItalic.ttf */,
+				ADC4A399204757D400B5EF69 /* Overpass-Italic.ttf */,
+				ADC4A39A204757D400B5EF69 /* Overpass-Light.ttf */,
+				ADC4A39B204757D400B5EF69 /* Overpass-LightItalic.ttf */,
+				ADC4A39C204757D400B5EF69 /* Overpass-Regular.ttf */,
+				ADC4A39D204757D400B5EF69 /* Overpass-SemiBold.ttf */,
+				ADC4A39E204757D400B5EF69 /* Overpass-SemiBoldItalic.ttf */,
+				ADC4A39F204757D400B5EF69 /* Overpass-Thin.ttf */,
+				ADC4A3A0204757D400B5EF69 /* Overpass-ThinItalic.ttf */,
+				ADC4A3A1204757D400B5EF69 /* PlayfairDisplay-Black.ttf */,
+				ADC4A3A2204757D400B5EF69 /* PlayfairDisplay-BlackItalic.ttf */,
+				ADC4A3A3204757D400B5EF69 /* PlayfairDisplay-Bold.ttf */,
+				ADC4A3A4204757D400B5EF69 /* PlayfairDisplay-BoldItalic.ttf */,
+				ADC4A3A5204757D400B5EF69 /* PlayfairDisplay-Italic.ttf */,
+				ADC4A3A6204757D400B5EF69 /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADC4A35F204757C500B5EF69 /* CastiYAYa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC4A388204757C500B5EF69 /* Build configuration list for PBXNativeTarget "CastiYAYa" */;
+			buildPhases = (
+				ADC4A35C204757C500B5EF69 /* Sources */,
+				ADC4A35D204757C500B5EF69 /* Frameworks */,
+				ADC4A35E204757C500B5EF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CastiYAYa;
+			productName = CastiYAYa;
+			productReference = ADC4A360204757C500B5EF69 /* CastiYAYa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADC4A373204757C500B5EF69 /* CastiYAYaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC4A38B204757C500B5EF69 /* Build configuration list for PBXNativeTarget "CastiYAYaTests" */;
+			buildPhases = (
+				ADC4A370204757C500B5EF69 /* Sources */,
+				ADC4A371204757C500B5EF69 /* Frameworks */,
+				ADC4A372204757C500B5EF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC4A376204757C500B5EF69 /* PBXTargetDependency */,
+			);
+			name = CastiYAYaTests;
+			productName = CastiYAYaTests;
+			productReference = ADC4A374204757C500B5EF69 /* CastiYAYaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADC4A37E204757C500B5EF69 /* CastiYAYaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC4A38E204757C500B5EF69 /* Build configuration list for PBXNativeTarget "CastiYAYaUITests" */;
+			buildPhases = (
+				ADC4A37B204757C500B5EF69 /* Sources */,
+				ADC4A37C204757C500B5EF69 /* Frameworks */,
+				ADC4A37D204757C500B5EF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC4A381204757C500B5EF69 /* PBXTargetDependency */,
+			);
+			name = CastiYAYaUITests;
+			productName = CastiYAYaUITests;
+			productReference = ADC4A37F204757C500B5EF69 /* CastiYAYaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC4A358204757C500B5EF69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ATCS;
+				TargetAttributes = {
+					ADC4A35F204757C500B5EF69 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					ADC4A373204757C500B5EF69 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADC4A35F204757C500B5EF69;
+					};
+					ADC4A37E204757C500B5EF69 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADC4A35F204757C500B5EF69;
+					};
+				};
+			};
+			buildConfigurationList = ADC4A35B204757C500B5EF69 /* Build configuration list for PBXProject "CastiYAYa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADC4A357204757C500B5EF69;
+			productRefGroup = ADC4A361204757C500B5EF69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC4A35F204757C500B5EF69 /* CastiYAYa */,
+				ADC4A373204757C500B5EF69 /* CastiYAYaTests */,
+				ADC4A37E204757C500B5EF69 /* CastiYAYaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC4A35E204757C500B5EF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC4A3B1204757D400B5EF69 /* Overpass-Regular.ttf in Resources */,
+				ADC4A3B7204757D400B5EF69 /* PlayfairDisplay-BlackItalic.ttf in Resources */,
+				ADC4A3AA204757D400B5EF69 /* Overpass-ExtraBold.ttf in Resources */,
+				ADC4A3B2204757D400B5EF69 /* Overpass-SemiBold.ttf in Resources */,
+				ADC4A3AC204757D400B5EF69 /* Overpass-ExtraLight.ttf in Resources */,
+				AD341F2C2085984900C1A1FD /* IMG_7770-2.jpg in Resources */,
+				ADC4A36E204757C500B5EF69 /* LaunchScreen.storyboard in Resources */,
+				ADC4A3AD204757D400B5EF69 /* Overpass-ExtraLightItalic.ttf in Resources */,
+				ADC4A3B5204757D400B5EF69 /* Overpass-ThinItalic.ttf in Resources */,
+				ADC4A36B204757C500B5EF69 /* Assets.xcassets in Resources */,
+				ADC4A3AB204757D400B5EF69 /* Overpass-ExtraBoldItalic.ttf in Resources */,
+				ADA427B4206957180089DED5 /* .gitignore in Resources */,
+				ADC4A3AF204757D400B5EF69 /* Overpass-Light.ttf in Resources */,
+				ADC4A3A8204757D400B5EF69 /* Overpass-Bold.ttf in Resources */,
+				ADC4A3B6204757D400B5EF69 /* PlayfairDisplay-Black.ttf in Resources */,
+				ADC4A369204757C500B5EF69 /* Main.storyboard in Resources */,
+				ADC4A3BA204757D400B5EF69 /* PlayfairDisplay-Italic.ttf in Resources */,
+				ADC4A3B4204757D400B5EF69 /* Overpass-Thin.ttf in Resources */,
+				ADC4A3B8204757D400B5EF69 /* PlayfairDisplay-Bold.ttf in Resources */,
+				ADC4A3AE204757D400B5EF69 /* Overpass-Italic.ttf in Resources */,
+				ADC4A3B3204757D400B5EF69 /* Overpass-SemiBoldItalic.ttf in Resources */,
+				ADC4A3B0204757D400B5EF69 /* Overpass-LightItalic.ttf in Resources */,
+				ADC4A3BB204757D400B5EF69 /* PlayfairDisplay-Regular.ttf in Resources */,
+				ADC4A3A9204757D400B5EF69 /* Overpass-BoldItalic.ttf in Resources */,
+				ADC4A3B9204757D400B5EF69 /* PlayfairDisplay-BoldItalic.ttf in Resources */,
+				ADC4A3A7204757D400B5EF69 /* Overpass-BlackItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC4A372204757C500B5EF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC4A37D204757C500B5EF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC4A35C204757C500B5EF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC4A366204757C500B5EF69 /* ViewController.swift in Sources */,
+				ADC4A364204757C500B5EF69 /* AppDelegate.swift in Sources */,
+				AD72B44B2058221B00228BE5 /* TraditionsTableViewController.swift in Sources */,
+				AD79DCB72049AD5400955C42 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC4A370204757C500B5EF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC4A379204757C500B5EF69 /* CastiYAYaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC4A37B204757C500B5EF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC4A384204757C500B5EF69 /* CastiYAYaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADC4A376204757C500B5EF69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADC4A35F204757C500B5EF69 /* CastiYAYa */;
+			targetProxy = ADC4A375204757C500B5EF69 /* PBXContainerItemProxy */;
+		};
+		ADC4A381204757C500B5EF69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADC4A35F204757C500B5EF69 /* CastiYAYa */;
+			targetProxy = ADC4A380204757C500B5EF69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADC4A367204757C500B5EF69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC4A368204757C500B5EF69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADC4A36C204757C500B5EF69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC4A36D204757C500B5EF69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADC4A386204757C500B5EF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADC4A387204757C500B5EF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADC4A389204757C500B5EF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 589PN7D9LU;
+				INFOPLIST_FILE = CastiYAYa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ATCS.CastiYAYa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADC4A38A204757C500B5EF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 589PN7D9LU;
+				INFOPLIST_FILE = CastiYAYa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ATCS.CastiYAYa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADC4A38C204757C500B5EF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 589PN7D9LU;
+				INFOPLIST_FILE = CastiYAYaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ATCS.CastiYAYaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CastiYAYa.app/CastiYAYa";
+			};
+			name = Debug;
+		};
+		ADC4A38D204757C500B5EF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 589PN7D9LU;
+				INFOPLIST_FILE = CastiYAYaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ATCS.CastiYAYaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CastiYAYa.app/CastiYAYa";
+			};
+			name = Release;
+		};
+		ADC4A38F204757C500B5EF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 589PN7D9LU;
+				INFOPLIST_FILE = CastiYAYaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ATCS.CastiYAYaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CastiYAYa;
+			};
+			name = Debug;
+		};
+		ADC4A390204757C500B5EF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 589PN7D9LU;
+				INFOPLIST_FILE = CastiYAYaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ATCS.CastiYAYaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CastiYAYa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC4A35B204757C500B5EF69 /* Build configuration list for PBXProject "CastiYAYa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC4A386204757C500B5EF69 /* Debug */,
+				ADC4A387204757C500B5EF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC4A388204757C500B5EF69 /* Build configuration list for PBXNativeTarget "CastiYAYa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC4A389204757C500B5EF69 /* Debug */,
+				ADC4A38A204757C500B5EF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC4A38B204757C500B5EF69 /* Build configuration list for PBXNativeTarget "CastiYAYaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC4A38C204757C500B5EF69 /* Debug */,
+				ADC4A38D204757C500B5EF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC4A38E204757C500B5EF69 /* Build configuration list for PBXNativeTarget "CastiYAYaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC4A38F204757C500B5EF69 /* Debug */,
+				ADC4A390204757C500B5EF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADC4A358204757C500B5EF69 /* Project object */;
+}
