@@ -32,17 +32,11 @@ class HomeViewController: UIViewController {
         homeButton.layer.cornerRadius = 10
         homeButton.clipsToBounds = true
         
-        teachersButton.layer.cornerRadius = 10
-        teachersButton.clipsToBounds = true
-        
         ACEButton.layer.cornerRadius = 10
         ACEButton.clipsToBounds = true
         
         athleticsButton.layer.cornerRadius = 10
         athleticsButton.clipsToBounds = true
-        
-        activitiesButton.layer.cornerRadius = 10
-        activitiesButton.clipsToBounds = true
         
         allgirlsButton.layer.cornerRadius = 10
         allgirlsButton.clipsToBounds = true
@@ -64,9 +58,6 @@ class HomeViewController: UIViewController {
         
         speakersButton.layer.cornerRadius = 10
         speakersButton.clipsToBounds = true
-        
-        leadershipButton.layer.cornerRadius = 10
-        leadershipButton.clipsToBounds = true
         
         foodButton.layer.cornerRadius = 10
         foodButton.clipsToBounds = true
