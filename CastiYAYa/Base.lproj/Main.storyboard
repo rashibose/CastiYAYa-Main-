@@ -44,14 +44,14 @@
             <objects>
                 <viewController title="Home" id="ipj-Nv-sSh" customClass="HomeViewController" customModule="CastiYAYa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MGb-kY-bPf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nnp-ih-KP7">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l9O-lJ-qc4">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="775"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's Possible?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6C-sG-xcT">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
@@ -113,7 +113,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtS-Ax-Veh">
                                                 <rect key="frame" x="196" y="319" width="158" height="97"/>
-                                                <color key="backgroundColor" red="1" green="0.87696972340000001" blue="0.39529478029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.89411764705882346" green="0.88235294117647056" blue="0.80392156862745101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="158" id="8Nv-Wa-uuT"/>
                                                     <constraint firstAttribute="height" constant="97" id="htg-et-k4Q"/>
@@ -128,7 +128,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jy2-oP-Tke">
                                                 <rect key="frame" x="196" y="561" width="158" height="97"/>
-                                                <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.8901960784313725" green="0.92156862745098034" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="97" id="Mrc-co-YTf"/>
                                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="158" id="dCF-aE-G1h"/>
@@ -143,7 +143,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mw-7r-Tbn">
                                                 <rect key="frame" x="15" y="439" width="158" height="97"/>
-                                                <color key="backgroundColor" red="0.1019607843" green="0.18039215689999999" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.81568627450980391" green="0.82352941176470584" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="97" id="4aF-dD-fva"/>
                                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="158" id="jik-Wf-r70"/>
@@ -174,7 +174,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCD-vE-yVz">
                                                 <rect key="frame" x="15" y="561" width="158" height="97"/>
-                                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.95294117647058818" green="0.93725490196078431" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="97" id="sRb-59-Zy4"/>
                                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="158" id="wOo-UJ-BwM"/>
@@ -204,7 +204,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKo-b5-MMr">
                                                 <rect key="frame" x="15" y="674" width="158" height="97"/>
-                                                <color key="backgroundColor" red="1" green="0.87696972340000001" blue="0.39529478029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.83921568627450982" green="0.90980392156862744" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="97" id="DPI-mm-EcN"/>
                                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="158" id="yIh-Ad-Zbe"/>
@@ -234,7 +234,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IoE-FN-UaD">
                                                 <rect key="frame" x="196" y="674" width="158" height="97"/>
-                                                <color key="backgroundColor" red="0.10196078431372549" green="0.1803921568627451" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.81568627450980391" green="0.82352941176470584" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="158" id="hdb-zK-mo2"/>
                                                     <constraint firstAttribute="height" constant="97" id="saH-zN-Qcd"/>
@@ -245,6 +245,36 @@
                                                 </state>
                                                 <connections>
                                                     <segue destination="uGO-cU-Q8d" kind="show" id="7Vn-Js-OH3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8K-rA-hT0">
+                                                <rect key="frame" x="196" y="796" width="158" height="97"/>
+                                                <color key="backgroundColor" red="0.74901960779999999" green="0.83529411760000005" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="97" id="165-sk-GaI"/>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="158" id="BzJ-PJ-qIb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="17"/>
+                                                <state key="normal" title="Credits">
+                                                    <color key="titleColor" red="0.33333333329999998" green="0.33725490200000002" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="tPL-E2-28u" kind="show" id="xmp-9J-7Sn"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhS-fe-JZi">
+                                                <rect key="frame" x="15" y="796" width="158" height="97"/>
+                                                <color key="backgroundColor" red="0.90196078430000004" green="0.90980392160000001" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="158" id="3CS-Uk-THP"/>
+                                                    <constraint firstAttribute="height" constant="97" id="Ypy-F9-nyP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="17"/>
+                                                <state key="normal" title="Contact">
+                                                    <color key="titleColor" red="0.33333333329999998" green="0.33725490200000002" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="pCc-uk-pKs" kind="show" id="ngo-zT-jVh"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -259,7 +289,9 @@
                                             <constraint firstAttribute="trailing" secondItem="IoE-FN-UaD" secondAttribute="trailing" constant="21" id="4ut-sM-qY4"/>
                                             <constraint firstAttribute="trailing" secondItem="O6C-sG-xcT" secondAttribute="trailing" id="51V-ov-Jnt"/>
                                             <constraint firstAttribute="trailing" secondItem="jy2-oP-Tke" secondAttribute="trailing" constant="21" id="5h9-3e-iHf"/>
+                                            <constraint firstItem="A8K-rA-hT0" firstAttribute="leading" secondItem="mhS-fe-JZi" secondAttribute="trailing" constant="23" id="6lR-7D-mJu"/>
                                             <constraint firstItem="5mw-7r-Tbn" firstAttribute="width" secondItem="faB-Oh-Gfa" secondAttribute="width" id="7U9-Pn-1NC"/>
+                                            <constraint firstItem="A8K-rA-hT0" firstAttribute="width" secondItem="IoE-FN-UaD" secondAttribute="width" id="7VT-Zc-N9u"/>
                                             <constraint firstItem="fKo-b5-MMr" firstAttribute="leading" secondItem="l9O-lJ-qc4" secondAttribute="leading" constant="15" id="7bn-X1-N53"/>
                                             <constraint firstItem="q2u-cS-7n5" firstAttribute="leading" secondItem="VtS-Ax-Veh" secondAttribute="leading" id="AQb-NN-zVi"/>
                                             <constraint firstItem="O6C-sG-xcT" firstAttribute="top" secondItem="l9O-lJ-qc4" secondAttribute="top" id="BhF-Xc-i1l"/>
@@ -274,8 +306,9 @@
                                             <constraint firstItem="CKb-xA-joX" firstAttribute="leading" secondItem="l9O-lJ-qc4" secondAttribute="leading" constant="15" id="KX3-oY-fov"/>
                                             <constraint firstItem="oVR-9N-wnC" firstAttribute="width" secondItem="Vd9-GT-Sh9" secondAttribute="width" id="Ka7-rf-UBE"/>
                                             <constraint firstItem="oVR-9N-wnC" firstAttribute="trailing" secondItem="CKb-xA-joX" secondAttribute="trailing" id="M8h-zs-qlC"/>
+                                            <constraint firstItem="mhS-fe-JZi" firstAttribute="leading" secondItem="l9O-lJ-qc4" secondAttribute="leading" constant="15" id="Mbo-gl-kNz"/>
                                             <constraint firstItem="DIt-5r-B5g" firstAttribute="leading" secondItem="5mw-7r-Tbn" secondAttribute="leading" id="MoX-b2-vZ6"/>
-                                            <constraint firstAttribute="height" constant="775" id="NXH-dg-O14"/>
+                                            <constraint firstAttribute="height" constant="1000" id="NXH-dg-O14"/>
                                             <constraint firstItem="VtS-Ax-Veh" firstAttribute="trailing" secondItem="faB-Oh-Gfa" secondAttribute="trailing" id="NhU-XU-cng"/>
                                             <constraint firstItem="eCD-vE-yVz" firstAttribute="top" secondItem="jy2-oP-Tke" secondAttribute="top" id="OXw-Y2-3fp"/>
                                             <constraint firstItem="eCD-vE-yVz" firstAttribute="width" secondItem="jy2-oP-Tke" secondAttribute="width" id="Ofq-0e-kJj"/>
@@ -286,8 +319,10 @@
                                             <constraint firstItem="jy2-oP-Tke" firstAttribute="leading" secondItem="IoE-FN-UaD" secondAttribute="leading" id="R5R-4s-aSS"/>
                                             <constraint firstItem="CKb-xA-joX" firstAttribute="top" secondItem="oVR-9N-wnC" secondAttribute="bottom" constant="21" id="RUV-Oz-dyS"/>
                                             <constraint firstItem="eCD-vE-yVz" firstAttribute="top" secondItem="5mw-7r-Tbn" secondAttribute="bottom" constant="25" id="S3X-on-fsu"/>
+                                            <constraint firstItem="mhS-fe-JZi" firstAttribute="top" secondItem="fKo-b5-MMr" secondAttribute="bottom" constant="25" id="SCU-0M-KbO"/>
                                             <constraint firstItem="faB-Oh-Gfa" firstAttribute="trailing" secondItem="jy2-oP-Tke" secondAttribute="trailing" id="SOW-zw-ijk"/>
                                             <constraint firstItem="jy2-oP-Tke" firstAttribute="trailing" secondItem="IoE-FN-UaD" secondAttribute="trailing" id="TFK-pz-hHx"/>
+                                            <constraint firstItem="A8K-rA-hT0" firstAttribute="leading" secondItem="IoE-FN-UaD" secondAttribute="leading" id="Tlh-wp-1NB"/>
                                             <constraint firstItem="5mw-7r-Tbn" firstAttribute="top" secondItem="DIt-5r-B5g" secondAttribute="bottom" constant="22" id="Ubh-fQ-Gwi"/>
                                             <constraint firstItem="DIt-5r-B5g" firstAttribute="leading" secondItem="l9O-lJ-qc4" secondAttribute="leading" constant="15" id="VNk-f2-ToW"/>
                                             <constraint firstItem="IoE-FN-UaD" firstAttribute="leading" secondItem="fKo-b5-MMr" secondAttribute="trailing" constant="23" id="X2t-Lv-vXE"/>
@@ -297,10 +332,12 @@
                                             <constraint firstItem="VtS-Ax-Veh" firstAttribute="leading" secondItem="faB-Oh-Gfa" secondAttribute="leading" id="czK-CR-XnM"/>
                                             <constraint firstItem="5mw-7r-Tbn" firstAttribute="leading" secondItem="l9O-lJ-qc4" secondAttribute="leading" constant="15" id="czW-Ua-jaE"/>
                                             <constraint firstItem="oVR-9N-wnC" firstAttribute="top" secondItem="O6C-sG-xcT" secondAttribute="bottom" constant="18" id="duh-iU-WCC"/>
+                                            <constraint firstItem="mhS-fe-JZi" firstAttribute="width" secondItem="fKo-b5-MMr" secondAttribute="width" id="gow-UX-FWW"/>
                                             <constraint firstItem="VtS-Ax-Veh" firstAttribute="leading" secondItem="DIt-5r-B5g" secondAttribute="trailing" constant="23" id="gsc-QP-rv3"/>
                                             <constraint firstItem="O6C-sG-xcT" firstAttribute="leading" secondItem="l9O-lJ-qc4" secondAttribute="leading" id="hVs-IP-Qul"/>
                                             <constraint firstItem="fKo-b5-MMr" firstAttribute="top" secondItem="IoE-FN-UaD" secondAttribute="top" id="k4q-Ax-USE"/>
                                             <constraint firstItem="DIt-5r-B5g" firstAttribute="trailing" secondItem="5mw-7r-Tbn" secondAttribute="trailing" id="l8F-if-tMn"/>
+                                            <constraint firstItem="A8K-rA-hT0" firstAttribute="top" secondItem="IoE-FN-UaD" secondAttribute="bottom" constant="25" id="nCx-sx-aWQ"/>
                                             <constraint firstItem="DIt-5r-B5g" firstAttribute="top" secondItem="CKb-xA-joX" secondAttribute="bottom" constant="22" id="rab-wR-Nzo"/>
                                             <constraint firstAttribute="trailing" secondItem="q2u-cS-7n5" secondAttribute="trailing" constant="21" id="rgt-dZ-fqN"/>
                                             <constraint firstItem="5mw-7r-Tbn" firstAttribute="leading" secondItem="eCD-vE-yVz" secondAttribute="leading" id="sNp-TJ-LZK"/>
@@ -331,7 +368,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1S2-Em-GpM"/>
                     </view>
-                    <size key="freeformSize" width="375" height="900"/>
+                    <size key="freeformSize" width="375" height="1000"/>
                     <connections>
                         <outlet property="ACEButton" destination="IoE-FN-UaD" id="9OK-e7-rNK"/>
                         <outlet property="adviceButton" destination="DIt-5r-B5g" id="Pah-Pz-2vx"/>
@@ -340,6 +377,8 @@
                         <outlet property="artsButton" destination="5mw-7r-Tbn" id="9O0-hT-fGL"/>
                         <outlet property="athleticsButton" destination="CKb-xA-joX" id="N3I-i6-nUu"/>
                         <outlet property="classesButton" destination="VtS-Ax-Veh" id="u6B-Vu-wpb"/>
+                        <outlet property="contactButton" destination="l9O-lJ-qc4" id="TPw-vL-V7a"/>
+                        <outlet property="creditsButton" destination="l9O-lJ-qc4" id="ui8-uU-1MR"/>
                         <outlet property="electivesButton" destination="faB-Oh-Gfa" id="kjA-z6-TpU"/>
                         <outlet property="foodButton" destination="q2u-cS-7n5" id="qMU-OB-g1Q"/>
                         <outlet property="homeButton" destination="oVR-9N-wnC" id="QRn-FZ-8Dh"/>
@@ -372,12 +411,12 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traditions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEo-5T-fwD">
                                 <rect key="frame" x="0.0" y="65" width="414" height="65"/>
-                                <color key="backgroundColor" red="1" green="0.87281698620000003" blue="0.39133635500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.8901960784313725" green="0.92156862745098034" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="fRf-qV-yXE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZz-jr-eaD">
@@ -645,12 +684,12 @@
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traditions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4L8-A1-TEe">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="1" green="0.87281698620000003" blue="0.39133635500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.8901960784313725" green="0.92156862745098034" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="iYM-C0-E3j"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -785,12 +824,12 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traditions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqa-Ha-nQz">
                                 <rect key="frame" x="0.0" y="65" width="414" height="65"/>
-                                <color key="backgroundColor" red="1" green="0.87281698620000003" blue="0.39133635500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.8901960784313725" green="0.92156862745098034" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="9gc-Bs-jX0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfM-xK-xQp">
@@ -943,12 +982,12 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traditions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZU-wE-Ijl">
                                 <rect key="frame" x="0.0" y="65" width="414" height="65"/>
-                                <color key="backgroundColor" red="1" green="0.87281698620000003" blue="0.39133635500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.8901960784313725" green="0.92156862745098034" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="161-1T-JZA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwe-rV-45m">
@@ -1122,12 +1161,12 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlR-fr-nlq">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.1019607843" green="0.18039215689999999" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.81568627450980391" green="0.82352941176470584" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="8Vm-bF-Xp7"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20180105-AS-global-week-friday-92839" translatesAutoresizingMaskIntoConstraints="NO" id="iQg-XH-xFE">
@@ -1246,12 +1285,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Athletics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mlc-QO-DrX">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.36862745099999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.83921568627450982" green="0.90980392156862744" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="KyV-HP-DNV"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which of the following sports isn't offered at Casti?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLA-fd-VEj">
@@ -1447,12 +1486,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="731-NO-3MF">
                                 <rect key="frame" x="0.0" y="65" width="414" height="65"/>
-                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.95294117647058818" green="0.93725490196078431" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="902-gj-FIS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="DZD-nE-DX1">
@@ -1466,7 +1505,7 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="25"/>
                                                 <state key="normal" title=" Middle School Lobby ">
-                                                    <color key="titleColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="Qjv-fS-CsN" kind="show" id="2Oy-em-mjt"/>
@@ -1474,7 +1513,7 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Di2-6q-soU">
                                                 <rect key="frame" x="297" y="0.0" width="117" height="46"/>
-                                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="25"/>
                                                 <state key="normal" title=" Fishbowl ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1494,7 +1533,7 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7c-IX-0Vd">
                                                 <rect key="frame" x="0.0" y="0.0" width="66" height="46"/>
-                                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="25"/>
                                                 <state key="normal" title=" Gym ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1508,7 +1547,7 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="25"/>
                                                 <state key="normal" title=" Library ">
-                                                    <color key="titleColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="Qjv-fS-CsN" kind="show" id="so1-aO-lr0"/>
@@ -1516,7 +1555,7 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOj-Dl-NYE">
                                                 <rect key="frame" x="165" y="0.0" width="95" height="46"/>
-                                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="25"/>
                                                 <state key="normal" title=" Gallery ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1530,7 +1569,7 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="25"/>
                                                 <state key="normal" title=" Circle ">
-                                                    <color key="titleColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="Qjv-fS-CsN" kind="show" id="nYY-ki-tM8"/>
@@ -1543,7 +1582,7 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIg-cB-GzO">
                                                 <rect key="frame" x="0.0" y="0.0" width="134" height="46"/>
-                                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="25"/>
                                                 <state key="normal" title=" Bourn Lab ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1557,7 +1596,7 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="25"/>
                                                 <state key="normal" title=" Chapel Theatre ">
-                                                    <color key="titleColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="Qjv-fS-CsN" kind="show" id="fuv-PY-DPy"/>
@@ -1656,12 +1695,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVo-Rd-6Yt">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.95294117647058818" green="0.93725490196078431" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="B9i-6X-OhM"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="library" translatesAutoresizingMaskIntoConstraints="NO" id="rqg-k4-H8J">
@@ -1826,12 +1865,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LzH-9N-CVq">
                                 <rect key="frame" x="0.0" y="65" width="414" height="65"/>
-                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.95294117647058818" green="0.93725490196078431" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="pfN-yt-QNd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What location at Casti does this picture show? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7s-y5-7cm">
@@ -1848,7 +1887,7 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlI-3Z-uMa">
                                 <rect key="frame" x="10" y="521" width="385" height="160"/>
-                                <string key="text">This picture shows Casti's gym, which includes an upper gym, lower gym, dance studio, and locker rooms! Click "Next" to learn more about fun locations on campus.</string>
+                                <string key="text">This picture shows Casti's gym, which includes an upper gym, lower gym, dance studio, and locker rooms! Click "Learn More" to see other fun locations on campus.</string>
                                 <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1958,12 +1997,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViW-CG-erG">
                                 <rect key="frame" x="0.0" y="65" width="414" height="65"/>
-                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.95294117647058818" green="0.93725490196078431" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="Z6Z-2k-6Rm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What location at Casti does this picture show? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1oR-nE-HGg">
@@ -1983,7 +2022,7 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                 <constraints>
                                     <constraint firstAttribute="height" constant="160" id="DEs-vE-Zyt"/>
                                 </constraints>
-                                <string key="text">This picture shows Casti's gym, which includes an upper gym, lower gym, dance studio, and locker rooms! Click "Next" to learn more about fun locations on campus.</string>
+                                <string key="text">This picture shows Casti's gym, which includes an upper gym, lower gym, dance studio, and locker rooms! Click "Learn More" to see other fun locations on campus.</string>
                                 <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2113,12 +2152,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dh3-4v-R3W">
                                         <rect key="frame" x="0.0" y="64" width="375" height="65"/>
-                                        <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.8901960784313725" green="0.92156862745098034" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="65" id="0UY-VS-p79"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                        <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWM-hj-pZj">
@@ -2229,12 +2268,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPs-A2-Uar">
                                 <rect key="frame" x="0.0" y="56" width="414" height="60"/>
-                                <color key="backgroundColor" red="0.72160392999649048" green="0.16857695579528809" blue="0.21872052550315857" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.90980392156862744" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="lf4-Kz-a4K"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q5b-rw-7qx">
@@ -2380,12 +2419,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uha-e7-o9K">
                                 <rect key="frame" x="0.0" y="65" width="414" height="65"/>
-                                <color key="backgroundColor" red="0.72160392999649048" green="0.16857695579528809" blue="0.21872052550315857" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.90980392156862744" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="ORk-Sa-cYe"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="BNU-a0-N4j">
@@ -2568,12 +2607,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vve-hg-kc7">
                                 <rect key="frame" x="0.0" y="65" width="414" height="65"/>
-                                <color key="backgroundColor" red="0.72160392999649048" green="0.16857695579528809" blue="0.21872052550315857" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.90980392156862744" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="mef-ER-aVx"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
-                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdp-d9-NAh">
@@ -2643,12 +2682,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rs8-LP-sXB">
                                 <rect key="frame" x="0.0" y="65" width="414" height="65"/>
-                                <color key="backgroundColor" red="0.72160393" green="0.16857695580000001" blue="0.21872052550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.90980392156862744" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="hZr-G1-ppg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
-                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Red_X.svg" translatesAutoresizingMaskIntoConstraints="NO" id="ICW-dh-ekY">
@@ -2773,12 +2812,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fee-5f-ZY3">
                                 <rect key="frame" x="0.0" y="65" width="414" height="65"/>
-                                <color key="backgroundColor" red="0.72160393" green="0.16857695580000001" blue="0.21872052550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.90980392156862744" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="TTk-FH-rYe"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
-                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Red_X.svg" translatesAutoresizingMaskIntoConstraints="NO" id="aWE-mh-Pzd">
@@ -2923,12 +2962,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssu-y0-QJn">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.72160392999649048" green="0.16857695579528809" blue="0.21872052550315857" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.90196078431372551" green="0.90980392156862744" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="ka8-gn-TCT"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qf5-xf-Xnv">
@@ -3022,12 +3061,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7z-Cz-DGH">
                                                 <rect key="frame" x="0.0" y="58" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.1019607843" green="0.18039215689999999" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.81568627450980391" green="0.82352941176470584" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="Nr0-ct-CLP"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Every year the Middle School performs a musical. Can you guess which musical this quote is from?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAE-CF-rnM">
@@ -3180,12 +3219,12 @@ Additionally, the ACE Center has many community partnerships which provide oppor
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alumnae" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEs-z4-DjO">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="60"/>
-                                                <color key="backgroundColor" red="1" green="0.87281698620000003" blue="0.39133635500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.83921568627450982" green="0.90980392156862744" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="Eti-R6-OuI"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Mx-mt-rfp">
@@ -3338,12 +3377,12 @@ Rachel Skokowski '11
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWz-PG-fPx">
                                                 <rect key="frame" x="0.0" y="58" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.1019607843" green="0.18039215689999999" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.81568627450980391" green="0.82352941176470584" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="0wB-UW-gQC"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20170120_MS_musical_addamsfamily_3817" translatesAutoresizingMaskIntoConstraints="NO" id="Nq2-du-knl">
@@ -3481,12 +3520,12 @@ Rachel Skokowski '11
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUV-QW-ghg">
                                                 <rect key="frame" x="0.0" y="58" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.1019607843" green="0.18039215689999999" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.81568627450980391" green="0.82352941176470584" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="Gz2-FZ-VON"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="15635" translatesAutoresizingMaskIntoConstraints="NO" id="RQc-Ie-ecN">
@@ -3624,12 +3663,12 @@ Rachel Skokowski '11
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3T-vm-Pz9">
                                                 <rect key="frame" x="0.0" y="58" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.1019607843" green="0.18039215689999999" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.81568627450980391" green="0.82352941176470584" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="uW6-Ok-mCn"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20180126-MS-musical-legally-blonde-194512-4" translatesAutoresizingMaskIntoConstraints="NO" id="hEk-kS-fpF">
@@ -3766,12 +3805,12 @@ Rachel Skokowski '11
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5d-aE-FfA">
                                                 <rect key="frame" x="0.0" y="58" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.1019607843" green="0.18039215689999999" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.81568627450980391" green="0.82352941176470584" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="a5e-YB-LhJ"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Middle School Musical" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFZ-mx-pU1">
@@ -3911,12 +3950,12 @@ Rachel Skokowski '11
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Athletics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f06-VQ-0Wm">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.36862745099999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.83921568627450982" green="0.90980392156862744" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="yFW-No-xT6"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which of the following sports isn't offered at Casti?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzx-MP-kkZ">
@@ -4143,12 +4182,12 @@ Rachel Skokowski '11
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Athletics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6a-hH-c8Z">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.36862745099999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.83921568627450982" green="0.90980392156862744" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="kDP-RN-unk"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which of the following sports isn't offered at Casti?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bp9-Jy-GY8">
@@ -4376,12 +4415,12 @@ Rachel Skokowski '11
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Athletics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pX8-c2-W7G">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.36862745099999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.83921568627450982" green="0.90980392156862744" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="uMU-al-oxy"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A71-fl-fhX">
@@ -4735,12 +4774,12 @@ Rachel Skokowski '11
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cu8-3a-AQX">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.72160393" green="0.16857695580000001" blue="0.21872052550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.84313725490196079" green="0.8784313725490196" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="JJ1-yP-Fgv"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LlC-pF-b6I">
@@ -4852,12 +4891,12 @@ Rachel Skokowski '11
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bourn Lab" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbK-wb-UnA">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.95255821943283081" green="0.59472519159317017" blue="0.10797745734453201" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.95294117647058818" green="0.93725490196078431" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="Jor-IM-kjn"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST Lego League (FLL)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="at0-ng-BTk">
@@ -4987,7 +5026,7 @@ Rachel Skokowski '11
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cn-Cb-1dM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8417" y="-516"/>
+            <point key="canvasLocation" x="8417" y="-153"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8Si-EH-PIl">
@@ -5028,12 +5067,12 @@ Rachel Skokowski '11
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sar-TV-fYn">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.99989718198776245" green="0.87632143497467041" blue="0.27999109029769897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.89411764705882346" green="0.88235294117647056" blue="0.80392156862745101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="wCQ-Hn-ixC"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EzZ-sL-6dU">
@@ -5324,12 +5363,12 @@ Rachel Skokowski '11
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Electives" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOb-nz-0M7">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.1529411765" green="0.36862745099999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.74901960784313726" green="0.83529411764705885" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="9Ph-ZQ-hLv"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U9m-cc-SB4">
@@ -5537,12 +5576,12 @@ Rachel Skokowski '11
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Weq-CC-CPC">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.25454872846603394" green="0.68503016233444214" blue="0.80666369199752808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.8901960784313725" green="0.92156862745098034" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="0vF-80-hKh"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="65" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dj3-Af-KkD">
@@ -5683,12 +5722,12 @@ Rachel Skokowski '11
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RA1-Xe-ruR">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.25454872849999999" green="0.68503016230000002" blue="0.80666369199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.8901960784313725" green="0.92156862745098034" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="cjn-jH-fng"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0y-wp-Edq">
@@ -5836,12 +5875,12 @@ Rachel Skokowski '11
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAl-f1-NOi">
                                                 <rect key="frame" x="0.0" y="65" width="375" height="65"/>
-                                                <color key="backgroundColor" red="0.25454872849999999" green="0.68503016230000002" blue="0.80666369199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.8901960784313725" green="0.92156862745098034" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="jJp-Ke-4Lp"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
-                                                <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.33333333333333331" green="0.33725490196078434" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwE-oQ-6pc">
@@ -5964,6 +6003,334 @@ Rachel Skokowski '11
             </objects>
             <point key="canvasLocation" x="7137" y="1096"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="myz-dX-Azo">
+            <objects>
+                <viewController id="pCc-uk-pKs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WuM-x8-eBK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1190"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pHE-qM-o9r">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1190"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d4z-Pk-Hf1">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1190"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's Possible?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eM-VC-F7t">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                                                <color key="backgroundColor" red="0.83921568629999999" green="0.90980392160000001" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="65" id="76b-1W-AGr"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
+                                                <color key="textColor" red="0.72156862749999995" green="0.16862745100000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tp-du-37t">
+                                                <rect key="frame" x="10" y="10" width="46" height="42"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="46" id="UNo-Qp-6Lt"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" red="0.72156862749999995" green="0.16862745100000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="ipj-Nv-sSh" kind="show" id="qT0-jw-dp0"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fcs-Yc-qHy">
+                                                <rect key="frame" x="0.0" y="65" width="375" height="65"/>
+                                                <color key="backgroundColor" red="0.90196078430000004" green="0.90980392160000001" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="65" id="UTy-6V-qVW"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
+                                                <color key="textColor" red="0.33333333329999998" green="0.33725490200000002" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDm-nc-uCz">
+                                                <rect key="frame" x="0.0" y="149" width="375" height="107.66666666666669"/>
+                                                <string key="text">"My advice would be to take advantage of all the opportunities provided by Casti. From tinkering in the nook to singing in musical rehearsal, there are so many activities that would suit anyone's interests." -Lauren L., '24</string>
+                                                <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
+                                                <color key="textColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgv-MY-dul">
+                                                <rect key="frame" x="0.0" y="281.66666666666669" width="375" height="86.333333333333314"/>
+                                                <string key="text">"Some advice that I would have is to be open to anything! Always make new friends and be welcoming. Everyone is nervous, and it's not that hard to make friends with us." -Emma H., '24</string>
+                                                <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
+                                                <color key="textColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="7Tp-du-37t" firstAttribute="top" secondItem="d4z-Pk-Hf1" secondAttribute="top" constant="10" id="2Cm-Gm-ScD"/>
+                                            <constraint firstAttribute="trailing" secondItem="MDm-nc-uCz" secondAttribute="trailing" id="4ml-bV-2QK"/>
+                                            <constraint firstItem="8eM-VC-F7t" firstAttribute="leading" secondItem="d4z-Pk-Hf1" secondAttribute="leading" id="5IO-ur-Pyn"/>
+                                            <constraint firstAttribute="trailing" secondItem="8eM-VC-F7t" secondAttribute="trailing" id="5WD-Nu-Duz"/>
+                                            <constraint firstItem="Jgv-MY-dul" firstAttribute="top" secondItem="MDm-nc-uCz" secondAttribute="bottom" constant="25" id="HsC-PD-eax"/>
+                                            <constraint firstItem="Fcs-Yc-qHy" firstAttribute="top" secondItem="7Tp-du-37t" secondAttribute="bottom" constant="13" id="Hzf-Gh-MOA"/>
+                                            <constraint firstItem="8eM-VC-F7t" firstAttribute="top" secondItem="d4z-Pk-Hf1" secondAttribute="top" id="K7O-jB-2wa"/>
+                                            <constraint firstItem="8eM-VC-F7t" firstAttribute="trailing" secondItem="Fcs-Yc-qHy" secondAttribute="trailing" id="RVb-Ne-fiu"/>
+                                            <constraint firstItem="Jgv-MY-dul" firstAttribute="leading" secondItem="d4z-Pk-Hf1" secondAttribute="leading" id="SJI-Sa-SLU"/>
+                                            <constraint firstItem="MDm-nc-uCz" firstAttribute="top" secondItem="Fcs-Yc-qHy" secondAttribute="bottom" constant="19" id="UXZ-MG-LPi"/>
+                                            <constraint firstItem="Fcs-Yc-qHy" firstAttribute="top" secondItem="8eM-VC-F7t" secondAttribute="bottom" id="UYs-rw-CfC"/>
+                                            <constraint firstItem="7Tp-du-37t" firstAttribute="leading" secondItem="d4z-Pk-Hf1" secondAttribute="leading" constant="10" id="Vce-GH-Lvg"/>
+                                            <constraint firstItem="8eM-VC-F7t" firstAttribute="leading" secondItem="Fcs-Yc-qHy" secondAttribute="leading" id="Z59-kw-FMh"/>
+                                            <constraint firstAttribute="height" constant="1190" id="acD-AC-7Zr"/>
+                                            <constraint firstItem="MDm-nc-uCz" firstAttribute="leading" secondItem="d4z-Pk-Hf1" secondAttribute="leading" id="hN2-ys-N2q"/>
+                                            <constraint firstAttribute="trailing" secondItem="Jgv-MY-dul" secondAttribute="trailing" id="zL3-8J-sMJ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="d4z-Pk-Hf1" secondAttribute="trailing" id="14m-hC-Wkf"/>
+                                    <constraint firstAttribute="bottom" secondItem="d4z-Pk-Hf1" secondAttribute="bottom" id="3jv-pZ-EVt"/>
+                                    <constraint firstItem="d4z-Pk-Hf1" firstAttribute="leading" secondItem="pHE-qM-o9r" secondAttribute="leading" id="nCb-Ib-PrE"/>
+                                    <constraint firstItem="d4z-Pk-Hf1" firstAttribute="top" secondItem="pHE-qM-o9r" secondAttribute="top" id="rzz-Li-I10"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pHE-qM-o9r" firstAttribute="leading" secondItem="W1U-qb-RMp" secondAttribute="leading" id="7bI-2Q-AC0"/>
+                            <constraint firstItem="pHE-qM-o9r" firstAttribute="bottom" secondItem="W1U-qb-RMp" secondAttribute="bottom" id="C3I-Sy-ZYb"/>
+                            <constraint firstItem="pHE-qM-o9r" firstAttribute="trailing" secondItem="W1U-qb-RMp" secondAttribute="trailing" id="IDB-jA-EFr"/>
+                            <constraint firstItem="pHE-qM-o9r" firstAttribute="top" secondItem="WuM-x8-eBK" secondAttribute="top" id="mmQ-g5-vav"/>
+                            <constraint firstItem="d4z-Pk-Hf1" firstAttribute="width" secondItem="WuM-x8-eBK" secondAttribute="width" id="xH3-2v-0kC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="W1U-qb-RMp"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1190"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bpb-yO-ExW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7762" y="-1812"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oZJ-es-i3T">
+            <objects>
+                <viewController id="k2s-Vb-tFm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hcL-Jr-I3L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1190"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O2v-oY-vQl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1190"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aEI-JB-a02">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1190"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's Possible?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3j-ff-nEx">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                                                <color key="backgroundColor" red="0.83921568629999999" green="0.90980392160000001" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="65" id="lZm-bW-FSR"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
+                                                <color key="textColor" red="0.72156862749999995" green="0.16862745100000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bs-0H-5M5">
+                                                <rect key="frame" x="10" y="10" width="46" height="42"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="46" id="z9X-aF-emT"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" red="0.72156862749999995" green="0.16862745100000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FA6-jw-qNf">
+                                                <rect key="frame" x="0.0" y="65" width="375" height="65"/>
+                                                <color key="backgroundColor" red="0.84313725490000002" green="0.87843137250000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="65" id="hBq-qB-pXc"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
+                                                <color key="textColor" red="0.33333333329999998" green="0.33725490200000002" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPb-Bm-vp0">
+                                                <rect key="frame" x="0.0" y="149" width="375" height="107.66666666666669"/>
+                                                <string key="text">"My advice would be to take advantage of all the opportunities provided by Casti. From tinkering in the nook to singing in musical rehearsal, there are so many activities that would suit anyone's interests." -Lauren L., '24</string>
+                                                <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
+                                                <color key="textColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zu5-R1-KFU">
+                                                <rect key="frame" x="0.0" y="281.66666666666669" width="375" height="86.333333333333314"/>
+                                                <string key="text">"Some advice that I would have is to be open to anything! Always make new friends and be welcoming. Everyone is nervous, and it's not that hard to make friends with us." -Emma H., '24</string>
+                                                <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
+                                                <color key="textColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="39" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTF-gy-7bi">
+                                                <rect key="frame" x="0.0" y="390.66666666666669" width="375" height="753.33333333333326"/>
+                                                <string key="text">"One of my passions is choral singing, and I wanted to be able to share the joy of singing and what music is all about with others, which is expressing emotions and connecting with others. So, when I realized that there wasn't a 6th grade a capella ensemble, I knew immediately that I wanted to start one. I reached out to two other friends who had previous choral experience, and together we organized the ensemble. First, we got permission to choose the repertoire from the music library. We chose songs in different languages that were challenging and fun, in 4-part harmony. Then, we figured out the logistics (when and where we would rehearse), and sent out a Google form to see who was interested. To organize voice parts, we also had them send a recording of themselves that they thought reflected their range. Everyone who wanted to be apart of the ensemble was welcome to join, no matter the level of experience, as the purpose of this ensemble was to have fun, learn from each other, share the joy of singing, and connect with each other! A couple months in, we sent out a feedback survey to see how we could make this ensemble even better. From these experiences, I got to exercise my leadership skills, and be a mentor to those who didn't have quite as much experience. Although we are currently taking a break from rehearsing, I am so glad that I got to share the joy of singing with others. This was once just an idea, and it has grown into a passionate, energetic, and spirited a capella ensemble where we learned more about each other, and created memorable experiences." -Caitlyn F., '24</string>
+                                                <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
+                                                <color key="textColor" red="0.1529411765" green="0.36862745099999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="FA6-jw-qNf" firstAttribute="top" secondItem="q3j-ff-nEx" secondAttribute="bottom" id="1zN-EV-zxV"/>
+                                            <constraint firstItem="zu5-R1-KFU" firstAttribute="leading" secondItem="aEI-JB-a02" secondAttribute="leading" id="CJU-iO-a39"/>
+                                            <constraint firstItem="pPb-Bm-vp0" firstAttribute="top" secondItem="FA6-jw-qNf" secondAttribute="bottom" constant="19" id="D0b-LP-kDe"/>
+                                            <constraint firstItem="7Bs-0H-5M5" firstAttribute="top" secondItem="aEI-JB-a02" secondAttribute="top" constant="10" id="Dfh-Uv-mdJ"/>
+                                            <constraint firstItem="q3j-ff-nEx" firstAttribute="top" secondItem="aEI-JB-a02" secondAttribute="top" id="LCR-71-cG8"/>
+                                            <constraint firstAttribute="trailing" secondItem="q3j-ff-nEx" secondAttribute="trailing" id="MBv-1I-doY"/>
+                                            <constraint firstItem="q3j-ff-nEx" firstAttribute="leading" secondItem="aEI-JB-a02" secondAttribute="leading" id="Rk0-98-yyv"/>
+                                            <constraint firstItem="OTF-gy-7bi" firstAttribute="leading" secondItem="aEI-JB-a02" secondAttribute="leading" id="aW2-dd-0eE"/>
+                                            <constraint firstAttribute="trailing" secondItem="pPb-Bm-vp0" secondAttribute="trailing" id="abU-uU-8Ch"/>
+                                            <constraint firstItem="7Bs-0H-5M5" firstAttribute="leading" secondItem="aEI-JB-a02" secondAttribute="leading" constant="10" id="azF-eX-N0n"/>
+                                            <constraint firstItem="OTF-gy-7bi" firstAttribute="top" secondItem="zu5-R1-KFU" secondAttribute="bottom" constant="22.670000000000002" id="daB-f4-Nou"/>
+                                            <constraint firstItem="FA6-jw-qNf" firstAttribute="top" secondItem="7Bs-0H-5M5" secondAttribute="bottom" constant="13" id="gqN-XL-jph"/>
+                                            <constraint firstItem="q3j-ff-nEx" firstAttribute="trailing" secondItem="FA6-jw-qNf" secondAttribute="trailing" id="i5g-BZ-IKQ"/>
+                                            <constraint firstAttribute="height" constant="1190" id="jUf-3V-ccN"/>
+                                            <constraint firstItem="zu5-R1-KFU" firstAttribute="top" secondItem="pPb-Bm-vp0" secondAttribute="bottom" constant="25" id="kW6-8V-4jR"/>
+                                            <constraint firstItem="pPb-Bm-vp0" firstAttribute="leading" secondItem="aEI-JB-a02" secondAttribute="leading" id="o3t-nl-pwO"/>
+                                            <constraint firstAttribute="trailing" secondItem="OTF-gy-7bi" secondAttribute="trailing" id="oHi-9v-KAG"/>
+                                            <constraint firstItem="q3j-ff-nEx" firstAttribute="leading" secondItem="FA6-jw-qNf" secondAttribute="leading" id="qPL-pR-Nj8"/>
+                                            <constraint firstAttribute="trailing" secondItem="zu5-R1-KFU" secondAttribute="trailing" id="vdD-Wj-PC4"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="aEI-JB-a02" firstAttribute="top" secondItem="O2v-oY-vQl" secondAttribute="top" id="RIj-gF-o2D"/>
+                                    <constraint firstAttribute="trailing" secondItem="aEI-JB-a02" secondAttribute="trailing" id="dEi-pq-Y7b"/>
+                                    <constraint firstAttribute="bottom" secondItem="aEI-JB-a02" secondAttribute="bottom" id="dp7-gO-Jfx"/>
+                                    <constraint firstItem="aEI-JB-a02" firstAttribute="leading" secondItem="O2v-oY-vQl" secondAttribute="leading" id="g1e-G9-20g"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O2v-oY-vQl" firstAttribute="bottom" secondItem="36v-Kj-IaR" secondAttribute="bottom" id="Gpq-8f-2wR"/>
+                            <constraint firstItem="O2v-oY-vQl" firstAttribute="top" secondItem="hcL-Jr-I3L" secondAttribute="top" id="HlN-XV-lDN"/>
+                            <constraint firstItem="O2v-oY-vQl" firstAttribute="leading" secondItem="36v-Kj-IaR" secondAttribute="leading" id="MYR-Fx-w5S"/>
+                            <constraint firstItem="aEI-JB-a02" firstAttribute="width" secondItem="hcL-Jr-I3L" secondAttribute="width" id="fJg-Hg-jqX"/>
+                            <constraint firstItem="O2v-oY-vQl" firstAttribute="trailing" secondItem="36v-Kj-IaR" secondAttribute="trailing" id="zFz-6M-HJC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="36v-Kj-IaR"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1190"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r1j-sG-H4H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7782" y="-740"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="b1i-UP-9Ep">
+            <objects>
+                <viewController id="tPL-E2-28u" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jJW-It-aQN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1190"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHS-Av-pXY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1190"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kLu-KI-ZNr">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1190"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's Possible?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEi-C4-3o2">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                                                <color key="backgroundColor" red="0.83921568629999999" green="0.90980392160000001" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="65" id="vHU-ng-gwO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
+                                                <color key="textColor" red="0.72156862749999995" green="0.16862745100000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv2-1G-g8Z">
+                                                <rect key="frame" x="10" y="10" width="46" height="42"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="46" id="Ddb-yI-x3B"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" red="0.72156862749999995" green="0.16862745100000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="ipj-Nv-sSh" kind="show" id="Ck4-Fa-1ee"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyP-Sp-bqB">
+                                                <rect key="frame" x="0.0" y="65" width="375" height="65"/>
+                                                <color key="backgroundColor" red="0.74901960779999999" green="0.83529411760000005" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="65" id="MP4-ZF-yII"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="27"/>
+                                                <color key="textColor" red="0.33333333329999998" green="0.33725490200000002" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8c-br-lli">
+                                                <rect key="frame" x="0.0" y="149" width="375" height="107.66666666666669"/>
+                                                <string key="text">"My advice would be to take advantage of all the opportunities provided by Casti. From tinkering in the nook to singing in musical rehearsal, there are so many activities that would suit anyone's interests." -Lauren L., '24</string>
+                                                <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
+                                                <color key="textColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iw0-qe-AWD">
+                                                <rect key="frame" x="0.0" y="281.66666666666669" width="375" height="86.333333333333314"/>
+                                                <string key="text">"Some advice that I would have is to be open to anything! Always make new friends and be welcoming. Everyone is nervous, and it's not that hard to make friends with us." -Emma H., '24</string>
+                                                <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
+                                                <color key="textColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="jv2-1G-g8Z" firstAttribute="top" secondItem="kLu-KI-ZNr" secondAttribute="top" constant="10" id="1gV-yL-rGg"/>
+                                            <constraint firstItem="JEi-C4-3o2" firstAttribute="trailing" secondItem="cyP-Sp-bqB" secondAttribute="trailing" id="74s-hq-PxQ"/>
+                                            <constraint firstItem="cyP-Sp-bqB" firstAttribute="top" secondItem="JEi-C4-3o2" secondAttribute="bottom" id="Bo0-oV-ehA"/>
+                                            <constraint firstItem="Iw0-qe-AWD" firstAttribute="top" secondItem="r8c-br-lli" secondAttribute="bottom" constant="25" id="Daf-iA-SOB"/>
+                                            <constraint firstItem="r8c-br-lli" firstAttribute="top" secondItem="cyP-Sp-bqB" secondAttribute="bottom" constant="19" id="HGR-XP-ega"/>
+                                            <constraint firstItem="cyP-Sp-bqB" firstAttribute="top" secondItem="jv2-1G-g8Z" secondAttribute="bottom" constant="13" id="HdW-bu-u5W"/>
+                                            <constraint firstItem="jv2-1G-g8Z" firstAttribute="leading" secondItem="kLu-KI-ZNr" secondAttribute="leading" constant="10" id="Ij2-B6-Swn"/>
+                                            <constraint firstAttribute="trailing" secondItem="JEi-C4-3o2" secondAttribute="trailing" id="PFJ-Du-ixq"/>
+                                            <constraint firstItem="JEi-C4-3o2" firstAttribute="top" secondItem="kLu-KI-ZNr" secondAttribute="top" id="PXi-6f-qZh"/>
+                                            <constraint firstAttribute="trailing" secondItem="Iw0-qe-AWD" secondAttribute="trailing" id="ZCd-3T-kS5"/>
+                                            <constraint firstItem="JEi-C4-3o2" firstAttribute="leading" secondItem="cyP-Sp-bqB" secondAttribute="leading" id="cJC-7N-dAL"/>
+                                            <constraint firstItem="JEi-C4-3o2" firstAttribute="leading" secondItem="kLu-KI-ZNr" secondAttribute="leading" id="fhj-Xq-oFo"/>
+                                            <constraint firstItem="r8c-br-lli" firstAttribute="leading" secondItem="kLu-KI-ZNr" secondAttribute="leading" id="hy9-Q1-LVW"/>
+                                            <constraint firstAttribute="trailing" secondItem="r8c-br-lli" secondAttribute="trailing" id="jKT-OW-a2b"/>
+                                            <constraint firstAttribute="height" constant="1190" id="mrB-aC-SC7"/>
+                                            <constraint firstItem="Iw0-qe-AWD" firstAttribute="leading" secondItem="kLu-KI-ZNr" secondAttribute="leading" id="y5N-UG-eKy"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kLu-KI-ZNr" firstAttribute="top" secondItem="QHS-Av-pXY" secondAttribute="top" id="ABs-95-wDu"/>
+                                    <constraint firstAttribute="trailing" secondItem="kLu-KI-ZNr" secondAttribute="trailing" id="fKJ-zS-tKa"/>
+                                    <constraint firstItem="kLu-KI-ZNr" firstAttribute="leading" secondItem="QHS-Av-pXY" secondAttribute="leading" id="iqr-kw-sz9"/>
+                                    <constraint firstAttribute="bottom" secondItem="kLu-KI-ZNr" secondAttribute="bottom" id="pjK-jl-j6S"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QHS-Av-pXY" firstAttribute="bottom" secondItem="Brn-By-DRy" secondAttribute="bottom" id="43D-sV-UBM"/>
+                            <constraint firstItem="QHS-Av-pXY" firstAttribute="trailing" secondItem="Brn-By-DRy" secondAttribute="trailing" id="FxY-bM-7Rx"/>
+                            <constraint firstItem="QHS-Av-pXY" firstAttribute="top" secondItem="jJW-It-aQN" secondAttribute="top" id="OVN-Uf-buu"/>
+                            <constraint firstItem="kLu-KI-ZNr" firstAttribute="width" secondItem="jJW-It-aQN" secondAttribute="width" id="deT-tM-V3s"/>
+                            <constraint firstItem="QHS-Av-pXY" firstAttribute="leading" secondItem="Brn-By-DRy" secondAttribute="leading" id="pqs-E0-GdW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Brn-By-DRy"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1190"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mZz-3M-RQ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9099" y="-1812"/>
+        </scene>
     </scenes>
     <resources>
         <image name="15635" width="1200" height="800"/>
@@ -6011,25 +6378,23 @@ Rachel Skokowski '11
         <image name="waterpolo-1" width="381" height="272"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XHy-1E-b8X"/>
-        <segue reference="cDA-Fb-UcU"/>
         <segue reference="tIU-kP-cnz"/>
         <segue reference="E01-YB-NXL"/>
         <segue reference="KBO-0I-4FQ"/>
         <segue reference="qCM-NO-6T6"/>
         <segue reference="We0-av-Sez"/>
         <segue reference="Mlo-07-Woh"/>
-        <segue reference="UH3-WY-iig"/>
+        <segue reference="MS4-HQ-7ta"/>
         <segue reference="GAB-C4-3aK"/>
-        <segue reference="YDZ-1x-I5c"/>
-        <segue reference="oVx-pT-dmB"/>
+        <segue reference="Yna-gt-Z8x"/>
+        <segue reference="wTa-Qn-W0e"/>
         <segue reference="rg8-B6-iTu"/>
         <segue reference="33P-xD-a5B"/>
-        <segue reference="IVh-ZG-UxZ"/>
-        <segue reference="GfE-0P-XL0"/>
+        <segue reference="dof-BY-n7J"/>
+        <segue reference="Xgp-Wd-TsZ"/>
         <segue reference="pZv-vs-Gja"/>
         <segue reference="gxc-N5-3XO"/>
-        <segue reference="hd2-3r-bxX"/>
-        <segue reference="Irf-Ee-qwJ"/>
+        <segue reference="WlC-A7-ntd"/>
+        <segue reference="qT0-jw-dp0"/>
     </inferredMetricsTieBreakers>
 </document>

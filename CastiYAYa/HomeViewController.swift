@@ -25,10 +25,18 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var leadershipButton: UIButton!
     @IBOutlet weak var foodButton: UIButton!
     @IBOutlet weak var alumniButton: UIButton!
+    @IBOutlet weak var contactButton: UIView!
+    @IBOutlet weak var creditsButton: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //put in for/while loop
+        contactButton.layer.cornerRadius = 10
+        contactButton.clipsToBounds = true
+        
+        creditsButton.layer.cornerRadius = 10
+        creditsButton.clipsToBounds = true
+        
         homeButton.layer.cornerRadius = 10
         homeButton.clipsToBounds = true
         
