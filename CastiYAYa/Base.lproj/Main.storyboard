@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ipj-Nv-sSh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ipj-Nv-sSh">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -6050,39 +6050,56 @@ Rachel Skokowski '11
                                                 <color key="textColor" red="0.33333333329999998" green="0.33725490200000002" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDm-nc-uCz">
-                                                <rect key="frame" x="0.0" y="149" width="375" height="107.66666666666669"/>
-                                                <string key="text">"My advice would be to take advantage of all the opportunities provided by Casti. From tinkering in the nook to singing in musical rehearsal, there are so many activities that would suit anyone's interests." -Lauren L., '24</string>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use the information below to contact the Castilleja Admissions deparment with any questions you may have!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2A5-lV-EfC">
+                                                <rect key="frame" x="0.0" y="129" width="375" height="84"/>
+                                                <color key="backgroundColor" red="0.95294117649999999" green="0.93725490199999995" blue="0.85490196080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
-                                                <color key="textColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgv-MY-dul">
-                                                <rect key="frame" x="0.0" y="281.66666666666669" width="375" height="86.333333333333314"/>
-                                                <string key="text">"Some advice that I would have is to be open to anything! Always make new friends and be welcoming. Everyone is nervous, and it's not that hard to make friends with us." -Emma H., '24</string>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="650.470.7733" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCV-ka-DwP">
+                                                <rect key="frame" x="0.0" y="209" width="375" height="48"/>
+                                                <color key="backgroundColor" red="0.89019607840000003" green="0.92156862750000001" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="B8T-3h-dFa"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
-                                                <color key="textColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="admission@castilleja.org" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Xe-zk-flO">
+                                                <rect key="frame" x="0.0" y="257" width="375" height="48"/>
+                                                <color key="backgroundColor" red="0.83921568629999999" green="0.90980392160000001" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="Prr-yO-LWO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="HCV-ka-DwP" firstAttribute="top" secondItem="Fcs-Yc-qHy" secondAttribute="bottom" constant="79" id="20g-bf-QRu"/>
                                             <constraint firstItem="7Tp-du-37t" firstAttribute="top" secondItem="d4z-Pk-Hf1" secondAttribute="top" constant="10" id="2Cm-Gm-ScD"/>
-                                            <constraint firstAttribute="trailing" secondItem="MDm-nc-uCz" secondAttribute="trailing" id="4ml-bV-2QK"/>
+                                            <constraint firstItem="2A5-lV-EfC" firstAttribute="leading" secondItem="HCV-ka-DwP" secondAttribute="leading" id="4QJ-n7-7ah"/>
                                             <constraint firstItem="8eM-VC-F7t" firstAttribute="leading" secondItem="d4z-Pk-Hf1" secondAttribute="leading" id="5IO-ur-Pyn"/>
                                             <constraint firstAttribute="trailing" secondItem="8eM-VC-F7t" secondAttribute="trailing" id="5WD-Nu-Duz"/>
-                                            <constraint firstItem="Jgv-MY-dul" firstAttribute="top" secondItem="MDm-nc-uCz" secondAttribute="bottom" constant="25" id="HsC-PD-eax"/>
+                                            <constraint firstItem="2A5-lV-EfC" firstAttribute="top" secondItem="8eM-VC-F7t" secondAttribute="bottom" constant="64" id="6yj-sz-Ub8"/>
+                                            <constraint firstItem="HCV-ka-DwP" firstAttribute="trailing" secondItem="2Xe-zk-flO" secondAttribute="trailing" id="Ant-Ip-KtF"/>
+                                            <constraint firstItem="2A5-lV-EfC" firstAttribute="leading" secondItem="Fcs-Yc-qHy" secondAttribute="leading" id="Dzn-Ra-9MU"/>
                                             <constraint firstItem="Fcs-Yc-qHy" firstAttribute="top" secondItem="7Tp-du-37t" secondAttribute="bottom" constant="13" id="Hzf-Gh-MOA"/>
                                             <constraint firstItem="8eM-VC-F7t" firstAttribute="top" secondItem="d4z-Pk-Hf1" secondAttribute="top" id="K7O-jB-2wa"/>
                                             <constraint firstItem="8eM-VC-F7t" firstAttribute="trailing" secondItem="Fcs-Yc-qHy" secondAttribute="trailing" id="RVb-Ne-fiu"/>
-                                            <constraint firstItem="Jgv-MY-dul" firstAttribute="leading" secondItem="d4z-Pk-Hf1" secondAttribute="leading" id="SJI-Sa-SLU"/>
-                                            <constraint firstItem="MDm-nc-uCz" firstAttribute="top" secondItem="Fcs-Yc-qHy" secondAttribute="bottom" constant="19" id="UXZ-MG-LPi"/>
                                             <constraint firstItem="Fcs-Yc-qHy" firstAttribute="top" secondItem="8eM-VC-F7t" secondAttribute="bottom" id="UYs-rw-CfC"/>
                                             <constraint firstItem="7Tp-du-37t" firstAttribute="leading" secondItem="d4z-Pk-Hf1" secondAttribute="leading" constant="10" id="Vce-GH-Lvg"/>
+                                            <constraint firstItem="2A5-lV-EfC" firstAttribute="trailing" secondItem="HCV-ka-DwP" secondAttribute="trailing" id="YOf-6R-7fa"/>
+                                            <constraint firstItem="2Xe-zk-flO" firstAttribute="top" secondItem="2A5-lV-EfC" secondAttribute="bottom" constant="44" id="Ywt-MD-fuU"/>
                                             <constraint firstItem="8eM-VC-F7t" firstAttribute="leading" secondItem="Fcs-Yc-qHy" secondAttribute="leading" id="Z59-kw-FMh"/>
                                             <constraint firstAttribute="height" constant="1190" id="acD-AC-7Zr"/>
-                                            <constraint firstItem="MDm-nc-uCz" firstAttribute="leading" secondItem="d4z-Pk-Hf1" secondAttribute="leading" id="hN2-ys-N2q"/>
-                                            <constraint firstAttribute="trailing" secondItem="Jgv-MY-dul" secondAttribute="trailing" id="zL3-8J-sMJ"/>
+                                            <constraint firstItem="HCV-ka-DwP" firstAttribute="leading" secondItem="2Xe-zk-flO" secondAttribute="leading" id="arI-Lf-gCy"/>
+                                            <constraint firstItem="2A5-lV-EfC" firstAttribute="trailing" secondItem="Fcs-Yc-qHy" secondAttribute="trailing" id="b9T-l4-bME"/>
+                                            <constraint firstItem="2Xe-zk-flO" firstAttribute="top" secondItem="HCV-ka-DwP" secondAttribute="bottom" id="dvf-5p-qMS"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -6108,7 +6125,7 @@ Rachel Skokowski '11
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bpb-yO-ExW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7762" y="-1812"/>
+            <point key="canvasLocation" x="7761.594202898551" y="-1812.2282608695652"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oZJ-es-i3T">
@@ -6229,11 +6246,11 @@ Rachel Skokowski '11
             <objects>
                 <viewController id="tPL-E2-28u" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jJW-It-aQN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1190"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHS-Av-pXY">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1190"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kLu-KI-ZNr">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1190"/>
@@ -6271,18 +6288,24 @@ Rachel Skokowski '11
                                                 <color key="textColor" red="0.33333333329999998" green="0.33725490200000002" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8c-br-lli">
-                                                <rect key="frame" x="0.0" y="149" width="375" height="107.66666666666669"/>
-                                                <string key="text">"My advice would be to take advantage of all the opportunities provided by Casti. From tinkering in the nook to singing in musical rehearsal, there are so many activities that would suit anyone's interests." -Lauren L., '24</string>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photos provided by Zenfolio archives, and Ms. Cameron" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8c-br-lli">
+                                                <rect key="frame" x="0.0" y="128" width="375" height="50"/>
+                                                <color key="backgroundColor" red="0.95294117649999999" green="0.93725490199999995" blue="0.85490196080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="XV8-vj-8ZS"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
-                                                <color key="textColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iw0-qe-AWD">
-                                                <rect key="frame" x="0.0" y="281.66666666666669" width="375" height="86.333333333333314"/>
-                                                <string key="text">"Some advice that I would have is to be open to anything! Always make new friends and be welcoming. Everyone is nervous, and it's not that hard to make friends with us." -Emma H., '24</string>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App created by Rashi B. '18 and Katie M. '18" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iw0-qe-AWD">
+                                                <rect key="frame" x="0.0" y="175" width="375" height="48"/>
+                                                <color key="backgroundColor" red="0.89019607840000003" green="0.92156862750000001" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="udx-OA-u93"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
-                                                <color key="textColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -6291,19 +6314,19 @@ Rachel Skokowski '11
                                             <constraint firstItem="jv2-1G-g8Z" firstAttribute="top" secondItem="kLu-KI-ZNr" secondAttribute="top" constant="10" id="1gV-yL-rGg"/>
                                             <constraint firstItem="JEi-C4-3o2" firstAttribute="trailing" secondItem="cyP-Sp-bqB" secondAttribute="trailing" id="74s-hq-PxQ"/>
                                             <constraint firstItem="cyP-Sp-bqB" firstAttribute="top" secondItem="JEi-C4-3o2" secondAttribute="bottom" id="Bo0-oV-ehA"/>
-                                            <constraint firstItem="Iw0-qe-AWD" firstAttribute="top" secondItem="r8c-br-lli" secondAttribute="bottom" constant="25" id="Daf-iA-SOB"/>
-                                            <constraint firstItem="r8c-br-lli" firstAttribute="top" secondItem="cyP-Sp-bqB" secondAttribute="bottom" constant="19" id="HGR-XP-ega"/>
+                                            <constraint firstItem="r8c-br-lli" firstAttribute="leading" secondItem="cyP-Sp-bqB" secondAttribute="leading" id="CyA-05-Ncw"/>
+                                            <constraint firstItem="r8c-br-lli" firstAttribute="top" secondItem="JEi-C4-3o2" secondAttribute="bottom" constant="63" id="EnT-ae-PlZ"/>
                                             <constraint firstItem="cyP-Sp-bqB" firstAttribute="top" secondItem="jv2-1G-g8Z" secondAttribute="bottom" constant="13" id="HdW-bu-u5W"/>
                                             <constraint firstItem="jv2-1G-g8Z" firstAttribute="leading" secondItem="kLu-KI-ZNr" secondAttribute="leading" constant="10" id="Ij2-B6-Swn"/>
                                             <constraint firstAttribute="trailing" secondItem="JEi-C4-3o2" secondAttribute="trailing" id="PFJ-Du-ixq"/>
                                             <constraint firstItem="JEi-C4-3o2" firstAttribute="top" secondItem="kLu-KI-ZNr" secondAttribute="top" id="PXi-6f-qZh"/>
-                                            <constraint firstAttribute="trailing" secondItem="Iw0-qe-AWD" secondAttribute="trailing" id="ZCd-3T-kS5"/>
                                             <constraint firstItem="JEi-C4-3o2" firstAttribute="leading" secondItem="cyP-Sp-bqB" secondAttribute="leading" id="cJC-7N-dAL"/>
                                             <constraint firstItem="JEi-C4-3o2" firstAttribute="leading" secondItem="kLu-KI-ZNr" secondAttribute="leading" id="fhj-Xq-oFo"/>
-                                            <constraint firstItem="r8c-br-lli" firstAttribute="leading" secondItem="kLu-KI-ZNr" secondAttribute="leading" id="hy9-Q1-LVW"/>
-                                            <constraint firstAttribute="trailing" secondItem="r8c-br-lli" secondAttribute="trailing" id="jKT-OW-a2b"/>
                                             <constraint firstAttribute="height" constant="1190" id="mrB-aC-SC7"/>
-                                            <constraint firstItem="Iw0-qe-AWD" firstAttribute="leading" secondItem="kLu-KI-ZNr" secondAttribute="leading" id="y5N-UG-eKy"/>
+                                            <constraint firstItem="r8c-br-lli" firstAttribute="trailing" secondItem="Iw0-qe-AWD" secondAttribute="trailing" id="oBL-Q7-OfL"/>
+                                            <constraint firstItem="r8c-br-lli" firstAttribute="trailing" secondItem="cyP-Sp-bqB" secondAttribute="trailing" id="pDW-9Q-DED"/>
+                                            <constraint firstItem="Iw0-qe-AWD" firstAttribute="top" secondItem="cyP-Sp-bqB" secondAttribute="bottom" constant="45" id="sq6-pQ-uc2"/>
+                                            <constraint firstItem="r8c-br-lli" firstAttribute="leading" secondItem="Iw0-qe-AWD" secondAttribute="leading" id="tXl-EQ-zoD"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -6325,11 +6348,11 @@ Rachel Skokowski '11
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Brn-By-DRy"/>
                     </view>
-                    <size key="freeformSize" width="375" height="1190"/>
+                    <size key="freeformSize" width="375" height="900"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mZz-3M-RQ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9099" y="-1812"/>
+            <point key="canvasLocation" x="9097.826086956522" y="-1812.2282608695652"/>
         </scene>
     </scenes>
     <resources>
